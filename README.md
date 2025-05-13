@@ -21,11 +21,11 @@ A complete ML learning journey from fundamentals to deep learning, with **intera
 
 Every HTML page features:
 
-- **Expandable accordion sections** — click to explore each topic
-- **School-friendly analogies** — every concept explained with everyday comparisons
-- **Color-coded callouts** — key points, warnings, analogies, and info boxes
-- **Comparison tables** — side-by-side model/technique breakdowns
-- **Actual results** — real accuracy numbers and metrics from the notebooks
+- **Expandable accordion sections** - click to explore each topic
+- **School-friendly analogies** - every concept explained with everyday comparisons
+- **Color-coded callouts** - key points, warnings, analogies, and info boxes
+- **Comparison tables** - side-by-side model/technique breakdowns
+- **Actual results** - real accuracy numbers and metrics from the notebooks
 
 ---
 
@@ -76,12 +76,12 @@ Every HTML page features:
 - **Perceptron** - linear separability, perceptron learning rule, XOR problem (perceptron fails at 50%)
 - **Multi-Layer Perceptron (MLP)** - hidden layers solve XOR (100% accuracy), Universal Approximation Theorem, from-scratch NumPy implementation
 - **Backpropagation** - forward pass, backward pass, chain rule, gradient computation, DetailedNN class with [2,8,4,1] architecture, gradient magnitude visualization, activation distributions
-- **Activation Functions** - Sigmoid, Tanh, ReLU, Leaky ReLU, Swish, GELU — properties comparison, vanishing gradient problem, dead neuron problem in ReLU
+- **Activation Functions** - Sigmoid, Tanh, ReLU, Leaky ReLU, Swish, GELU - properties comparison, vanishing gradient problem, dead neuron problem in ReLU
 - **Keras/TensorFlow** - Sequential API, Digits classification (128→64→32 MLP), Dropout, EarlyStopping, ReduceLROnPlateau, softmax output, classification reports
 - **Convolutional Neural Networks (CNNs)** - MNIST handwriting (28×28), Conv2D → BatchNorm → MaxPooling → Dropout architecture, data augmentation (ImageDataGenerator), feature map visualization, CNN vs MLP comparison
-- **Recurrent Neural Networks (RNNs)** - synthetic time series prediction, 5 architectures compared: SimpleRNN, LSTM, GRU, Bidirectional LSTM, Stacked LSTM — performance vs complexity analysis
-- **Optimizer Comparison** - SGD, SGD+Momentum, RMSprop, Adam, AdamW on California Housing regression — convergence speed and final performance
-- **Regularization Techniques** - Baseline vs L2 vs Dropout vs BatchNormalization vs Combined — overfitting gap analysis, training stability, L2 strength sweep (0 → 1.0)
+- **Recurrent Neural Networks (RNNs)** - synthetic time series prediction, 5 architectures compared: SimpleRNN, LSTM, GRU, Bidirectional LSTM, Stacked LSTM - performance vs complexity analysis
+- **Optimizer Comparison** - SGD, SGD+Momentum, RMSprop, Adam, AdamW on California Housing regression - convergence speed and final performance
+- **Regularization Techniques** - Baseline vs L2 vs Dropout vs BatchNormalization vs Combined - overfitting gap analysis, training stability, L2 strength sweep (0 → 1.0)
 
 ## 🗺️ Learning Path
 
