@@ -1,17 +1,15 @@
-# 📌 Machine Learning Fundamentals 
+# 📌 Machine Learning Fundamentals
 
 A comprehensive machine learning project covering **supervised learning** (regression & classification), **unsupervised learning** (K-Means clustering), and **reinforcement learning** (Q-Learning). Built as part of a structured ML course across two sessions.
 
-## 📂 Project Structure
+## 📚 Overview
 
-```
-Machine-Learning-Projects/
-├── Datasets/                              # Training datasets
-├── machine-learning-part1.ipynb           # Session 1: ML fundamentals & core concepts
-├── machine-learning-part2.ipynb           # Session 2: Regression, classification, regularization
-├── requirements.txt                       # Python dependencies
-└── .gitignore
-```
+| #   | Notebook                       | Topics                                                                                      | Explanation                                                                                                                                     |
+| --- | ------------------------------ | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | `machine-learning-part1.ipynb` | Supervised/Unsupervised/RL, California Housing, K-Means, Q-Learning, ML Pipeline            | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/explanations/ml-explained.html)       |
+| 2   | `machine-learning-part2.ipynb` | Linear/Polynomial Regression, MSE/RMSE/R², Cross-Validation, Bias-Variance, Ridge/Lasso     | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/explanations/ml-part2-explained.html) |
+| 3   | `machine-learning-part3.ipynb` | Logistic Regression, Decision Trees, SVM, Ensembles (RF, XGBoost), ROC/AUC, Class Imbalance | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/explanations/ml-part3-explained.html) |
+| 4   | `machine-learning-part4.ipynb` | Perceptrons, Backpropagation, Activation Functions, Keras/TF, CNNs, RNNs, Optimizers        | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/explanations/ml-part4-explained.html) |
 
 ## 📌 What's Covered
 
@@ -43,30 +41,30 @@ Machine-Learning-Projects/
 
 ## 📊 Datasets Used
 
-| Dataset | Task | Type | Source |
-|---------|------|------|--------|
-| California Housing | House price prediction | Regression | scikit-learn |
-| FuelConsumptionCo2.csv | CO2 emission prediction | Regression | IBM |
-| 1000_Companies.csv | Company profit prediction | Regression | — |
-| Wine (sklearn) | Wine type classification | Classification | scikit-learn |
-| Iris | Flower classification | Classification | scikit-learn |
-| Wine Quality (Red) | Quality rating prediction | Classification | UCI ML Repository |
-| Synthetic Customer Data | Customer segmentation | Clustering | Generated |
-| GridWorld | Navigation agent | Reinforcement Learning | Generated |
+| Dataset                 | Task                      | Type                   | Source            |
+| ----------------------- | ------------------------- | ---------------------- | ----------------- |
+| California Housing      | House price prediction    | Regression             | scikit-learn      |
+| FuelConsumptionCo2.csv  | CO2 emission prediction   | Regression             | IBM               |
+| 1000_Companies.csv      | Company profit prediction | Regression             | —                 |
+| Wine (sklearn)          | Wine type classification  | Classification         | scikit-learn      |
+| Iris                    | Flower classification     | Classification         | scikit-learn      |
+| Wine Quality (Red)      | Quality rating prediction | Classification         | UCI ML Repository |
+| Synthetic Customer Data | Customer segmentation     | Clustering             | Generated         |
+| GridWorld               | Navigation agent          | Reinforcement Learning | Generated         |
 
 ## 🔑 Key Results
 
-| Model | Dataset | Metric |
-|-------|---------|--------|
-| Linear Regression (1 feature) | CO2 Emissions | R² = 0.762 |
-| Multivariable Linear Regression | CO2 Emissions | R² = 0.903 |
-| OLS / Ridge / Lasso / ElasticNet | CO2 Emissions | R² ≈ 0.903 |
-| Linear Regression | California Housing | R² = 0.576 |
-| Linear Regression | Company Profit | R² = 0.983 |
-| Random Forest Classifier | Wine (sklearn) | 100% accuracy |
-| Logistic Regression | Iris (multi-class) | 97.3% accuracy |
-| Decision Tree (depth=2) | Iris | 96.0% accuracy |
-| Q-Learning Agent | 5×5 GridWorld | Avg reward = 92.94 |
+| Model                            | Dataset            | Metric             |
+| -------------------------------- | ------------------ | ------------------ |
+| Linear Regression (1 feature)    | CO2 Emissions      | R² = 0.762         |
+| Multivariable Linear Regression  | CO2 Emissions      | R² = 0.903         |
+| OLS / Ridge / Lasso / ElasticNet | CO2 Emissions      | R² ≈ 0.903         |
+| Linear Regression                | California Housing | R² = 0.576         |
+| Linear Regression                | Company Profit     | R² = 0.983         |
+| Random Forest Classifier         | Wine (sklearn)     | 100% accuracy      |
+| Logistic Regression              | Iris (multi-class) | 97.3% accuracy     |
+| Decision Tree (depth=2)          | Iris               | 96.0% accuracy     |
+| Q-Learning Agent                 | 5×5 GridWorld      | Avg reward = 92.94 |
 
 ## ⚙️ Setup
 
@@ -93,4 +91,3 @@ pip install -r requirements.txt
 - statsmodels - VIF and statistical tests
 - scipy - residual analysis and statistical distributions
 - joblib - model persistence
-
