@@ -1,6 +1,10 @@
 # 📌 Machine Learning Fundamentals
 
-A comprehensive machine learning project covering **supervised learning** (regression & classification), **unsupervised learning** (K-Means clustering), and **reinforcement learning** (Q-Learning). Built as part of a structured ML course across two sessions.
+A complete ML learning journey from fundamentals to deep learning, with **interactive HTML guides** that explain every notebook in plain language with school-friendly analogies.
+
+> **💡 Click the "View Explanation" links below to see beautiful, interactive HTML pages that break down each notebook concept by concept.**
+
+---
 
 ## 📚 Overview
 
@@ -10,6 +14,20 @@ A comprehensive machine learning project covering **supervised learning** (regre
 | 2   | `machine-learning-part2.ipynb` | Linear/Polynomial Regression, MSE/RMSE/R², Cross-Validation, Bias-Variance, Ridge/Lasso     | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part2-explained.html) |
 | 3   | `machine-learning-part3.ipynb` | Logistic Regression, Decision Trees, SVM, Ensembles (RF, XGBoost), ROC/AUC, Class Imbalance | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part3-explained.html) |
 | 4   | `machine-learning-part4.ipynb` | Perceptrons, Backpropagation, Activation Functions, Keras/TF, CNNs, RNNs, Optimizers        | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part4-explained.html) |
+
+---
+
+## 📖 What's Inside Each Explanation
+
+Every HTML page features:
+
+- **Expandable accordion sections** — click to explore each topic
+- **School-friendly analogies** — every concept explained with everyday comparisons
+- **Color-coded callouts** — key points, warnings, analogies, and info boxes
+- **Comparison tables** — side-by-side model/technique breakdowns
+- **Actual results** — real accuracy numbers and metrics from the notebooks
+
+---
 
 ## 📌 What's Covered
 
@@ -39,32 +57,14 @@ A comprehensive machine learning project covering **supervised learning** (regre
 - **Regularization** — Ridge (L2), Lasso (L1), ElasticNet with alpha tuning via GridSearchCV
 - **Model Saving/Loading** with `joblib`
 
-## 📊 Datasets Used
+## 🗺️ Learning Path
 
-| Dataset                 | Task                      | Type                   | Source            |
-| ----------------------- | ------------------------- | ---------------------- | ----------------- |
-| California Housing      | House price prediction    | Regression             | scikit-learn      |
-| FuelConsumptionCo2.csv  | CO2 emission prediction   | Regression             | IBM               |
-| 1000_Companies.csv      | Company profit prediction | Regression             | —                 |
-| Wine (sklearn)          | Wine type classification  | Classification         | scikit-learn      |
-| Iris                    | Flower classification     | Classification         | scikit-learn      |
-| Wine Quality (Red)      | Quality rating prediction | Classification         | UCI ML Repository |
-| Synthetic Customer Data | Customer segmentation     | Clustering             | Generated         |
-| GridWorld               | Navigation agent          | Reinforcement Learning | Generated         |
+```
+Part 1: ML Fundamentals ──→ Part 2: Regression ──→ Part 3: Classification
+                                                            │
+Part 4: Deep Learning (Neural Networks, CNNs, RNNs) ◄──────┘
 
-## 🔑 Key Results
-
-| Model                            | Dataset            | Metric             |
-| -------------------------------- | ------------------ | ------------------ |
-| Linear Regression (1 feature)    | CO2 Emissions      | R² = 0.762         |
-| Multivariable Linear Regression  | CO2 Emissions      | R² = 0.903         |
-| OLS / Ridge / Lasso / ElasticNet | CO2 Emissions      | R² ≈ 0.903         |
-| Linear Regression                | California Housing | R² = 0.576         |
-| Linear Regression                | Company Profit     | R² = 0.983         |
-| Random Forest Classifier         | Wine (sklearn)     | 100% accuracy      |
-| Logistic Regression              | Iris (multi-class) | 97.3% accuracy     |
-| Decision Tree (depth=2)          | Iris               | 96.0% accuracy     |
-| Q-Learning Agent                 | 5×5 GridWorld      | Avg reward = 92.94 |
+```
 
 ## ⚙️ Setup
 
@@ -81,13 +81,3 @@ source .venv/bin/activate        # Linux/Mac
 # Install dependencies
 pip install -r requirements.txt
 ```
-
-## 🛠 Tech Stack
-
-- **Python 3.8+**
-- pandas, numpy - data manipulation
-- matplotlib, seaborn - visualization
-- scikit-learn - ML models, preprocessing, and evaluation
-- statsmodels - VIF and statistical tests
-- scipy - residual analysis and statistical distributions
-- joblib - model persistence
