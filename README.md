@@ -4,12 +4,12 @@ A comprehensive machine learning project covering **supervised learning** (regre
 
 ## 📚 Overview
 
-| #   | Notebook                       | Topics                                                                                      | Explanation                                                                                                                                     |
-| --- | ------------------------------ | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | `machine-learning-part1.ipynb` | Supervised/Unsupervised/RL, California Housing, K-Means, Q-Learning, ML Pipeline            | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/explanations/ml-explained.html)       |
-| 2   | `machine-learning-part2.ipynb` | Linear/Polynomial Regression, MSE/RMSE/R², Cross-Validation, Bias-Variance, Ridge/Lasso     | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/explanations/ml-part2-explained.html) |
-| 3   | `machine-learning-part3.ipynb` | Logistic Regression, Decision Trees, SVM, Ensembles (RF, XGBoost), ROC/AUC, Class Imbalance | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/explanations/ml-part3-explained.html) |
-| 4   | `machine-learning-part4.ipynb` | Perceptrons, Backpropagation, Activation Functions, Keras/TF, CNNs, RNNs, Optimizers        | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/explanations/ml-part4-explained.html) |
+| #   | Notebook                       | Topics                                                                                      | Explanation                                                                                                                                                       |
+| --- | ------------------------------ | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | `machine-learning-part1.ipynb` | Supervised/Unsupervised/RL, California Housing, K-Means, Q-Learning, ML Pipeline            | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/explanations/ml-part1-explained.html) |
+| 2   | `machine-learning-part2.ipynb` | Linear/Polynomial Regression, MSE/RMSE/R², Cross-Validation, Bias-Variance, Ridge/Lasso     | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/explanations/ml-part2-explained.html) |
+| 3   | `machine-learning-part3.ipynb` | Logistic Regression, Decision Trees, SVM, Ensembles (RF, XGBoost), ROC/AUC, Class Imbalance | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/explanations/ml-part3-explained.html) |
+| 4   | `machine-learning-part4.ipynb` | Perceptrons, Backpropagation, Activation Functions, Keras/TF, CNNs, RNNs, Optimizers        | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/explanations/ml-part4-explained.html) |
 
 ## 📌 What's Covered
 
