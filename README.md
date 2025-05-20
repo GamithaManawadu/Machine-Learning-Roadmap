@@ -14,6 +14,7 @@ A complete ML learning journey from fundamentals to deep learning, with **intera
 | 2   | `machine-learning-part2.ipynb` | Linear/Polynomial Regression, MSE/RMSE/R², Cross-Validation, Bias-Variance, Ridge/Lasso     | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part2-explained.html) |
 | 3   | `machine-learning-part3.ipynb` | Logistic Regression, Decision Trees, SVM, Ensembles (RF, XGBoost), ROC/AUC, Class Imbalance | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part3-explained.html) |
 | 4   | `machine-learning-part4.ipynb` | Perceptrons, Backpropagation, Activation Functions, Keras/TF, CNNs, RNNs, Optimizers        | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part4-explained.html) |
+| 5   | `machine-learning-part5.ipynb` | Advanced CNNs (VGG/ResNet), Transfer Learning, Data Augmentation, YOLO, Segmentation, Pose  | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part5-explained.html) |
 
 ---
 
@@ -83,12 +84,31 @@ Every HTML page features:
 - **Optimizer Comparison** - SGD, SGD+Momentum, RMSprop, Adam, AdamW on California Housing regression - convergence speed and final performance
 - **Regularization Techniques** - Baseline vs L2 vs Dropout vs BatchNormalization vs Combined - overfitting gap analysis, training stability, L2 strength sweep (0 → 1.0)
 
+### Part 5 — Advanced CNNs & Computer Vision
+
+- **VGG-Style Architecture** — simplified VGG on CIFAR-10 (3 blocks of double Conv2D + MaxPool, 64→128→256 filters), 61.7% test accuracy
+- **ResNet-Style with Skip Connections** — residual blocks with identity shortcuts, BatchNorm, Add layers, 43.3% test accuracy (lightweight variant on small dataset)
+- **Architecture Comparison** — VGG vs ResNet training curves, loss and accuracy side-by-side over 15 epochs
+- **Transfer Learning (MobileNetV2)** — pre-trained on ImageNet (154 layers), frozen base + custom head (GlobalAvgPool → Dense(256) → Dropout → Softmax), CIFAR-10 images resized to 96×96, 61.5% test accuracy
+- **Fine-Tuning** — unfreezing last 20 layers, recompiling with 10× smaller learning rate (1e-5), 63.0% accuracy (+1.5% improvement)
+- **Data Augmentation** — ImageDataGenerator with rotation, shifts, flip, zoom; side-by-side comparison showing reduced overfitting gap with augmentation
+- **ImageNet Classification** — ResNet50 pre-trained on 1,000 classes, top-5 predictions with confidence scores
+- **Feature Map Visualization** — extracting and displaying 32 feature maps from the first convolutional layer to see what CNNs detect
+- **YOLOv8 Object Detection** — pre-trained YOLOv8n (nano), detecting objects with bounding boxes and confidence scores (bus 86.8%, persons 81–86%)
+- **YOLO on Video** — frame-by-frame detection on video files with annotated output
+- **Webcam Real-Time Detection** — live YOLO detection from camera feed
+- **Custom YOLO Training** — dataset structure (images/labels folders), YOLO label format, data.yaml config, training pipeline
+- **Instance Segmentation** — YOLOv8n-seg producing pixel-level masks for each detected object
+- **Pose Estimation** — YOLOv8n-pose detecting 17 body keypoints (nose, eyes, ears, shoulders, elbows, wrists, hips, knees, ankles)
+
 ## 🗺️ Learning Path
 
 ```
 Part 1: ML Fundamentals ──→ Part 2: Regression ──→ Part 3: Classification
                                                             │
 Part 4: Deep Learning (Neural Networks, CNNs, RNNs) ◄──────┘
+                        │
+Part 5: Advanced CNNs, Transfer Learning, YOLO ◄────────────┘
 
 ```
 
