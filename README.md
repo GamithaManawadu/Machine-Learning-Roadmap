@@ -15,6 +15,7 @@ A complete ML learning journey from fundamentals to deep learning, with **intera
 | 3   | `machine-learning-part3.ipynb` | Logistic Regression, Decision Trees, SVM, Ensembles (RF, XGBoost), ROC/AUC, Class Imbalance | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part3-explained.html) |
 | 4   | `machine-learning-part4.ipynb` | Perceptrons, Backpropagation, Activation Functions, Keras/TF, CNNs, RNNs, Optimizers        | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part4-explained.html) |
 | 5   | `machine-learning-part5.ipynb` | Advanced CNNs (VGG/ResNet), Transfer Learning, Data Augmentation, YOLO, Segmentation, Pose  | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part5-explained.html) |
+| 6   | `machine-learning-part6.ipynb` | Generative AI, Stable Diffusion, LLMs/Transformers, Text-to-Audio, Super-Resolution         | [🔗 View Explanation](https://htmlpreview.github.io/?https://github.com/GamithaManawadu/Machine-Learning-Projects/blob/main/Explanations/ml-part6-explained.html) |
 
 ---
 
@@ -101,6 +102,24 @@ Every HTML page features:
 - **Instance Segmentation** — YOLOv8n-seg producing pixel-level masks for each detected object
 - **Pose Estimation** — YOLOv8n-pose detecting 17 body keypoints (nose, eyes, ears, shoulders, elbows, wrists, hips, knees, ankles)
 
+### Part 6 — Generative AI & Large Language Models
+
+- **Generative vs Discriminative** — discriminative models learn P(Y|X) for classification; generative models learn P(X) to create new content (images, text, audio)
+- **Latent Space & Embeddings** — compressed representations where similar concepts cluster together; interpolation between latent codes produces smooth transitions; interactive 2D latent space visualization
+- **Stable Diffusion** — forward diffusion (gradually add noise to images) and reverse diffusion (learn to denoise step-by-step for generation)
+- **Stable Diffusion Components** — CLIP text encoder (77 tokens × 768 dim), U-Net denoiser (860M–2.6B params, cross-attention for text-to-image conditioning), VAE decoder (64×64×4 latent → 512×512×3 image, 48× compression)
+- **Diffusion Parameters** — CFG scale (prompt adherence, sweet spot 7–10), sampling steps (20–30 optimal), sampling methods (PNDM, DDIM, DPM)
+- **Transformer Architecture** — self-attention enables parallel processing and long-range dependencies; encoder-only (BERT), decoder-only (GPT/LLaMA), encoder-decoder (T5)
+- **Attention Mechanism (Q, K, V)** — Query/Key similarity scores → softmax → weighted Value sum; multi-head attention (8–32 heads) learns diverse patterns (local context, long-range, semantic, syntactic)
+- **Tokenization** — BPE/SentencePiece subword tokenization (~50K vocabulary), token IDs → embeddings (768–4096 dim) + positional encoding (sin/cos functions)
+- **Autoregressive Generation** — predict one token at a time, append to input, repeat; causal masking ensures only past tokens are visible
+- **Sampling Strategies** — greedy (deterministic), temperature (T<1 focused, T>1 random), top-k (filter unlikely tokens), top-p/nucleus (dynamic vocabulary, p=0.9 recommended), repetition penalty (1.1–1.2×); interactive temperature visualization
+- **Text-to-Audio Pipeline** — text encoder → acoustic model (→ mel-spectrogram) → vocoder (→ waveform); Bark (transformer, 13 languages, music/SFX) vs MMS-TTS (Meta, 1,100+ languages)
+- **Image Super-Resolution** — traditional bicubic (blurry) vs neural SR (learns to hallucinate realistic detail)
+- **Real-ESRGAN Architecture (RRDB)** — Residual Dense Blocks with dense connections, local + global residual connections, PixelShuffle upsampling (2×→4×), GAN training for perceptual realism
+- **Quality Metrics** — PSNR (pixel accuracy, 32+ dB excellent), SSIM (structural similarity, correlates with human perception)
+- **Unified Concepts** — attention mechanisms, transformers, latent representations, and sampling/generation strategies connect Stable Diffusion, LLMs, TTS, and super-resolution
+
 ## 🗺️ Learning Path
 
 ```
@@ -109,6 +128,8 @@ Part 1: ML Fundamentals ──→ Part 2: Regression ──→ Part 3: Classific
 Part 4: Deep Learning (Neural Networks, CNNs, RNNs) ◄──────┘
                         │
 Part 5: Advanced CNNs, Transfer Learning, YOLO ◄────────────┘
+                        │
+Part 6: Generative AI, LLMs, Diffusion, TTS, SR ◄──────────┘
 
 ```
 
